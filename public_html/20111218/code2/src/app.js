@@ -1,3 +1,9 @@
+// Ext.Loader有効化
+Ext.Loader.setConfig({
+    enabled: true
+});
+
+// アプリケーション設定
 Ext.application({
 
     // アプリケーション名
@@ -7,7 +13,7 @@ Ext.application({
     appFolder: 'src/app',
 
     // 使用コントローラー定義
-    controllers: [],
+    controllers: ['Main'],
 
     // アプリケーション起動時イベントハンドラ
     launch: function() {
