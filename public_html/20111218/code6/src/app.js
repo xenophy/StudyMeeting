@@ -16,7 +16,7 @@ Ext.application({
     appFolder: 'src/app',
 
     // 使用コントローラー定義
-    controllers: ['Main', 'Header'],
+    controllers: ['Main', 'Header', 'Navi', 'Center'],
 
     // アプリケーション起動時イベントハンドラ
     launch: function() {
