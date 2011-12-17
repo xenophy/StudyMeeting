@@ -50,8 +50,7 @@ Ext.define('Xenophy.controller.Header', {
             'xenophy-header button[action=button3]': {
                 click: function() {
 
-                    var navi = this.getNavi();
-                    navi.getStore().load();
+                    this.getController('Navi').onReload();
 
                 }
             }
