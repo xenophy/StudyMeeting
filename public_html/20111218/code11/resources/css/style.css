@@ -1,0 +1,19 @@
+
+h1 {
+  color: #04408C;
+  font-size: 16px;
+  padding: 4px;
+}
+
+.x-icon-1 {
+  background-image: url(../images/bricks.png) !important;
+}
+
+.x-icon-2 {
+  background-image: url(../images/briefcase.png) !important;
+}
+
+.x-icon-3 {
+  background-image: url(../images/chart_organisation.png) !important;
+}
+
